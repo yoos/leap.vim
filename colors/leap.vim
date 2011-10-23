@@ -1,21 +1,9 @@
 " Vim color file
 "
-"  "    __       _ _       _                             "
-"  "    \ \  ___| | |_   _| |__   ___  __ _ _ __  ___    "
-"  "     \ \/ _ \ | | | | |  _ \ / _ \/ _  |  _ \/ __|   "
-"  "  /\_/ /  __/ | | |_| | |_| |  __/ |_| | | | \__ \   "
-"  "  \___/ \___|_|_|\__  |____/ \___|\____|_| |_|___/   "
-"  "                 \___/                               "
-"
-"         "A colorful, dark color scheme for Vim."
-"
-" File:         jellybeans.vim
-" Maintainer:   NanoTech <http://nanotech.nanotechcorp.net/>
-" Version:      1.5~git
-" Last Change:  April 11th, 2011
-" Contributors: Daniel Herbert <http://pocket-ninja.com>,
-"               Henry So, Jr. <henryso@panix.com>,
-"               David Liang <bmdavll at gmail dot com>
+" File:         leap.vim
+" Maintainer:   yoos [iterativecode.com]
+" Version:      0.1
+" Last Change:  23 October 2011
 "
 " Copyright (c) 2009-2011 NanoTech
 "
@@ -460,10 +448,10 @@ if !s:low_color
   hi CursorColumn ctermbg=234
   hi CursorLine ctermbg=234
   hi SpecialKey ctermbg=234
-  hi NonText ctermbg=233
-  hi LineNr ctermbg=233
+  hi NonText ctermbg=none
+  hi LineNr ctermbg=none
   hi DiffText ctermfg=81
-  hi Normal ctermbg=233
+  hi Normal ctermbg=none
   hi DbgBreakPt ctermbg=53
 endif
 
