@@ -1,5 +1,9 @@
-jellybeans.vim
+leap.vim
 ==============
+
+Forked from jellybeans.vim by Nanotech. Will customize to satisfy my picky color choices.
+
+--------------
 
 A colorful, dark color scheme, inspired by [ir_black][] and [twilight][].
 
