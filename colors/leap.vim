@@ -275,7 +275,7 @@ fun! s:X(group, fg, bg, attr, lcfg, lcbg)
 endfun
 " }}}
 
-call s:X("Normal","e8e8d3","151515","","White","")
+call s:X("Normal","f8f8e3","151515","","White","")
 set background=dark
 
 if !exists("g:jellybeans_use_lowcolor_black") || g:jellybeans_use_lowcolor_black
@@ -317,11 +317,11 @@ call s:X("ColorColumn","","000000","","",s:termBlack)
 
 call s:X("Title","70b950","","bold","Green","")
 
-call s:X("Constant","cf6a4c","","","Red","")
+call s:X("Constant","df6a4c","","","Red","")
 call s:X("Special","799d6a","","","Green","")
 call s:X("Delimiter","668799","","","Grey","")
 
-call s:X("String","99ad6a","","","Green","")
+call s:X("String","aacc8a","","","Green","")
 call s:X("StringDelimiter","556633","","","DarkGreen","")
 
 call s:X("Identifier","c6b6ee","","","LightCyan","")
