@@ -33,7 +33,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name = "jellybeans"
+let colors_name = "leap"
 
 if has("gui_running") || &t_Co == 88 || &t_Co == 256
   let s:low_color = 0
@@ -275,10 +275,10 @@ fun! s:X(group, fg, bg, attr, lcfg, lcbg)
 endfun
 " }}}
 
-call s:X("Normal","f8f8e3","151515","","White","")
+call s:X("Normal","f6f6f6","151515","","White","")
 set background=dark
 
-if !exists("g:jellybeans_use_lowcolor_black") || g:jellybeans_use_lowcolor_black
+if !exists("g:leap_use_lowcolor_black") || g:leap_use_lowcolor_black
     let s:termBlack = "Black"
 else
     let s:termBlack = "Grey"
